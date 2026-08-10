@@ -1,2 +1,5 @@
-{"require":{"php":"^8.2",
-        "vlucas/phpdotenv": "*"}}
+{"require":{
+"php":"^8.2",
+        "vlucas/phpdotenv": "*"}
+        "ext-mysqli": "*"
+}
