@@ -7,7 +7,7 @@ header("Content-Type: application/json");
 
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     http_response_code(200);
-    exist();
+    exit();
 }
   error_reporting(E_ALL);
  ini_set('display_errors', 0);
