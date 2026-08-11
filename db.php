@@ -7,7 +7,7 @@ $dotenv->safeLoad();
 $dbHost = $_ENV['MYSQLHOST'] ?? getenv('MYSQLHOST');
 $dbUser = $_ENV['MYSQLUSER'] ?? getenv('MYSQLUSER');
 $dbPass = $_ENV['MYSQLPASSWORD']?? getenv('MYSQLPASSWORD');
-$dbName = $_ENV['MYSQLDATABASE'] ?? getenv('MYSQLDATABASE');
+$dbName = $_ENV['MYSQL_DATABASE'] ?? getenv('MYSQL_DATABASE');
 $dbPort = $_ENV['MYSQLPORT'] ?? getenv('MYSQLPORT');
 
 $conn = new mysqli( 
@@ -35,4 +35,3 @@ $conn = new mysqli(
 
 
 ?>
-?>/

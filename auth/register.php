@@ -34,7 +34,7 @@
 
  $password = password_hash($rawPassword, PASSWORD_DEFAULT);
 
- $check = $conn->query(
+  $check = $conn->query(
    "SELECT * FROM users WHERE email='$email'" 
 ); 
 
